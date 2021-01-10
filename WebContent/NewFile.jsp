@@ -8,14 +8,17 @@
 
 </head>
 <body>
-
-<header>Welcome to this!</header>
-
+<% 
+out.print("<header>Welcome to this!</header>");
+%>
  <form action = secondPage.jsp>
 Add a word: <input type= "text" name = "word">
 			<input type= "submit" value = "submit">
 </form>
 
-<footer>--Have a great day!--</footer>
+<% 
+out.print("<footer>--Have a great day!--</footer>");
+%>
+
 </body>
 </html>
