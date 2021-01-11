@@ -11,16 +11,16 @@
 
 <%
 
-out.print("<header>The word you typed:</header>");
+
 
 String word = request.getParameter("word");
 out.print(word);
 
-out.print("<footer>--That's it!--</footer>");
+
 
 %>
 
-
+<jsp:include page= "include.jsp"/>
 
 </body>
 </html>

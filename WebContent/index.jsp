@@ -4,21 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Cool site</title>
+<title>First page</title>
 
 </head>
 <body>
-<% 
-out.print("<header>Welcome to this!</header>");
-%>
+
+
  <form action = secondPage.jsp>
 Add a word: <input type= "text" name = "word">
 			<input type= "submit" value = "submit">
 </form>
 
-<% 
-out.print("<footer>--Have a great day!--</footer>");
-%>
+ <jsp:include page= "include.jsp"/> 
 
 </body>
+
 </html>
